@@ -1,4 +1,4 @@
-![image](https://github.com/yinghua8/Machine-Learning/assets/71891722/651f49bd-3976-41b2-8439-dddd8d8d8212)# Machine-Learning
+# Machine-Learning
 ### HW1
 This HW is mainly designed to teach us the mathematical concept of linear regression. Following are the four demands for Part I. Linear regression:
 
