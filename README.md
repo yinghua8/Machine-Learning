@@ -10,13 +10,16 @@ This HW is mainly designed to teach us the mathematical concept of linear regres
 Part II. Bayesian Linear Regression asks to use the Training Set in Part I, apply the sigmoidal basis functions in Part I with M=10, and implement Bayesian linear regression. In order to discuss how the amount of training data affects the regression process, please implement a sequential estimation: Please sequentially compute the mean $m_N$ and the covariance matrix $S_N$ for the posterior distribution $p(w|t) = N(w|m_N, S_N)$ with the given prior $p(w) = N(w|m_0, S_0)$ with $m_0 = 0, S_0 = 10^{-6}I$. The predictive distribution $p(t|X, w, \beta)$ is chosen to be $\beta = 1$. Similar to the following figures, please plot the curve of the posterior mean versus x and the region spanning one standard deviation on either side of the mean curve for N = 1, 2, 3, 4, 5, 10, 20, 30, 40, 50.
 
 And the image below shows the different functions used in this HW.
+
 ![image](https://github.com/yinghua8/Machine-Learning/assets/71891722/b9e32fb4-12b7-4c54-80e2-91395ceddaf6)
 
 ### HW2
 This HW is mainly designed to teach us the mathematical concept of classification. The statement of Part I. is: Consider that there are a group of college basketball players, who come from four different high schools. Now we analyze the Performance-Rating of “skill” and the “athleticism” for every player, as shown in Figure 1, where the blue, green, red, and black dots represent the players from High school 1, High school 2, High school 3, and High school 4, respectively. Noted that there are 400, 250, 200, and 150 players from High school 1, High school 2, High school 3, and High school 4, respectively. Please implement the algorithms of the generative model and the discriminative model to classify the data and plot the corresponding decision boundaries.
+
 ![image](https://github.com/yinghua8/Machine-Learning/assets/71891722/cf43643b-ce81-4b40-ab65-c12e46270d02)
 
 Part II. According to the overall Performance-Rating of “skill” and the “athleticism” for each high school in Figure 1, we classify High School 2 to be Class A, High School 1 and High School 4 to be Class B, and High School 3 to be Class C, as illustrated in green, blue, and red dots, respectively in Figure 3.
+
 ![image](https://github.com/yinghua8/Machine-Learning/assets/71891722/c550c85e-3c12-4e12-9fa9-4e8f95f87c92)
 
 
